@@ -5,7 +5,7 @@ function CatPic(){
 return(
         <div className="todo-item">
            <input type="checkbox" />
-           <p>I am a cat istance</p>
+           <p>I am a cat instance</p>
         </div>
     ) 
 }

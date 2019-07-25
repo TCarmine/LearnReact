@@ -1,14 +1,14 @@
 import React from "react"
-import Header from "./CatHeader"
-import MainContent from "./Content"
-import Footer from "./CatFooter"
+import CatHeader from "./CatHeader"
+import Content from "./Content"
+import CatFooter from "./CatFooter"
 
 function MainCat() {
   return (
     <div>
-      <Header />
-      <MainContent />
-      <Footer />
+      <CatHeader />
+      <Content />
+      <CatFooter />
     </div>
   );
 }

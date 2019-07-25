@@ -1,5 +1,5 @@
 import React from "react"
-import TodoItem from "./CatPic"
+import CatPic from "./CatPic"
 
 function Content() {
   return (

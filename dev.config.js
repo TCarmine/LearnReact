@@ -6,11 +6,11 @@ const config  = {
   entry: "./index.js",
   mode:'development',
   output: {
-    filename: 'catbundle.js',
+    filename: 'appbundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
   },
-  plugins: [new HtmlWebpackPlugin({filename:'cat.html'})],  
+  //plugins: [new HtmlWebpackPlugin({filename:'cat.html'})],  
   module: {
     rules: 
     [
