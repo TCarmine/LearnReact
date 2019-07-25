@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Todoitem(){
+function CatPic(){
   
 return(
         <div className="todo-item">
            <input type="checkbox" />
-           <p>First task</p>
+           <p>I am a cat istance</p>
         </div>
     ) 
 }
 
-export default Todoitem;
+export default CatPic

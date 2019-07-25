@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 
-function Footer() {
+function CatFooter() {
   return (
     <footer>
       <h3>Simple Footer</h3>
@@ -8,4 +8,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default CatFooter

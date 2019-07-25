@@ -1,15 +1,16 @@
-const webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 const config  = {
-  // context: __dirname + "/src",
+
   entry: "./index.js",
   mode:'development',
   output: {
-    filename: 'appbundle.js',
+    filename: 'catbundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
-  },  
+  },
+  plugins: [new HtmlWebpackPlugin({filename:'cat.html'})],  
   module: {
     rules: 
     [

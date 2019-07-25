@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import TodoItem from "./TodoItem"
 
 function MainContent() {
@@ -11,4 +11,4 @@ function MainContent() {
   )
 }
 
-export default MainContent;
+export default MainContent
