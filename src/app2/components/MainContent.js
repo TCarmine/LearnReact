@@ -1,18 +1,14 @@
 import React from "react";
+import TodoItem from "./TodoItem"
 
 function MainContent() {
   return (
-    <div>
-      <h1>Carmine</h1>
-      <p>BI Engineer/ Web Software Developer</p>
-      <ul>
-        Language I know
-        <li>SQL</li>
-        <li>Python</li>
-        <li>Javascript</li>
-      </ul>
-    </div>
-  );
+     <div className="todo-list">
+       <TodoItem />
+       <TodoItem />
+       <TodoItem />
+     </div> 
+  )
 }
 
 export default MainContent;
