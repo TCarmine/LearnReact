@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 const config  = {
-  context: __dirname + "/src",
+  // context: __dirname + "/src",
   entry: "./index.js",
   mode:'development',
   output: {
