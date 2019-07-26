@@ -241,51 +241,15 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./src/catcard/components/CatFooter.js":
-/*!*********************************************!*\
-  !*** ./src/catcard/components/CatFooter.js ***!
-  \*********************************************/
+/***/ "./src/catcard/components/ContactCard.js":
+/*!***********************************************!*\
+  !*** ./src/catcard/components/ContactCard.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction CatFooter() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"footer\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h3\", null, \"Simple Footer\"));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (CatFooter);\n\n//# sourceURL=webpack:///./src/catcard/components/CatFooter.js?");
-
-/***/ }),
-
-/***/ "./src/catcard/components/CatHeader.js":
-/*!*********************************************!*\
-  !*** ./src/catcard/components/CatHeader.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction CatHeader() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"header\", {\n    className: \"navbar\"\n  }, \"This is the header\");\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (CatHeader);\n\n//# sourceURL=webpack:///./src/catcard/components/CatHeader.js?");
-
-/***/ }),
-
-/***/ "./src/catcard/components/CatPic.js":
-/*!******************************************!*\
-  !*** ./src/catcard/components/CatPic.js ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction CatPic() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"todo-item\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"checkbox\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"I am a cat instance\"));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (CatPic);\n\n//# sourceURL=webpack:///./src/catcard/components/CatPic.js?");
-
-/***/ }),
-
-/***/ "./src/catcard/components/Content.js":
-/*!*******************************************!*\
-  !*** ./src/catcard/components/Content.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _CatPic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CatPic */ \"./src/catcard/components/CatPic.js\");\n\n\n\nfunction Content() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"todo-list\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CatPic__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CatPic__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CatPic__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Content);\n\n//# sourceURL=webpack:///./src/catcard/components/Content.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction ContactCard(props) {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"contact-card\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: props.contact.imgUrl\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h3\", null, props.contact.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Phone: \", props.contact.phone), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Email : \", props.contact.email));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ContactCard);\n\n//# sourceURL=webpack:///./src/catcard/components/ContactCard.js?");
 
 /***/ }),
 
@@ -297,7 +261,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _CatHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CatHeader */ \"./src/catcard/components/CatHeader.js\");\n/* harmony import */ var _Content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Content */ \"./src/catcard/components/Content.js\");\n/* harmony import */ var _CatFooter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CatFooter */ \"./src/catcard/components/CatFooter.js\");\n\n\n\n\n\nfunction MainCat() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CatHeader__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Content__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CatFooter__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MainCat);\n\n//# sourceURL=webpack:///./src/catcard/components/MainCat.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ContactCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ContactCard */ \"./src/catcard/components/ContactCard.js\");\n\n // import CatHeader from \"./CatHeader\"\n// import Content from \"./Content\"\n// import CatFooter from \"./CatFooter\"\n\nfunction MainCat() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"contacts\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ContactCard__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    contact: {\n      name: \"Mr. Whiskerson\",\n      imgUrl: \"http://placekitten.com/300/200\",\n      phone: \"(212) 555-1234\",\n      email: \"mr.whiskaz@catnap.meow\"\n    }\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ContactCard__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    contact: {\n      name: \"Fluffykins\",\n      imgUrl: \"http://placekitten.com/400/200\",\n      phone: \"(212) 555-2345\",\n      email: \"fluff@me.com\"\n    }\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ContactCard__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    contact: {\n      name: \"Destroyer\",\n      imgUrl: \"http://placekitten.com/400/300\",\n      phone: \"(212) 555-3456\",\n      email: \"ofworlds@yahoo.com\"\n    }\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ContactCard__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    contact: {\n      name: \"Felix\",\n      imgUrl: \"http://placekitten.com/200/100\",\n      phone: \"(212) 555-4567\",\n      email: \"thecat@hotmail.com\"\n    }\n  }));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MainCat);\n\n//# sourceURL=webpack:///./src/catcard/components/MainCat.js?");
 
 /***/ })
 
