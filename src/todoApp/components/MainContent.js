@@ -1,12 +1,12 @@
 import React from "react"
 import TodoItem from "./TodoItem"
+import todosData from "../todosData"
 
 function MainContent() {
+  const todoItems = todosData.map(item => <TodoItem key={item.id}  tizio={item} />)
   return (
      <div className="todo-list">
-       <TodoItem />
-       <TodoItem />
-       <TodoItem />
+       {todoItems}
      </div> 
   )
 }
