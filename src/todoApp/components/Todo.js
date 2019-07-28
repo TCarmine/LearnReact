@@ -1,13 +1,13 @@
 import React from "react"
 import Header from "./Header"
-import MainContent from "./MainContent"
 import Footer from "./Footer"
+import MainComponent from "./MainComponent";
 
 function Todo() {
   return (
     <div>
       <Header />
-      <MainContent />
+      <MainComponent/>
       <Footer />
     </div>
   );

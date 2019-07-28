@@ -2,8 +2,8 @@ import React from "react"
 import TodoItem from "./TodoItem"
 import todosData from "../todosData"
 
-function MainContent() {
-  const todoItems = todosData.map(item => <TodoItem key={item.id}  tizio={item} />)
+function MainComponent() {
+  const todoItems = todosData.map(item => <TodoItem key={item.id}  todoitem={item} />)
   return (
      <div className="todo-list">
        {todoItems}
@@ -11,4 +11,4 @@ function MainContent() {
   )
 }
 
-export default MainContent
+export default MainComponent
