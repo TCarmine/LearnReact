@@ -19,7 +19,8 @@ const config  = {
          exclude: /node_modules/,
          use: {
             loader: "babel-loader",
-         }
+         },
+         include: __dirname + '/src',
        }
     ]
   }
