@@ -4,7 +4,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack --config  dev.config.js",
-    "catapp": "webpack --config  catweb.config.js",
+    "catapp": "webpack --config  catwebpack.config.js",
+    "todoapp": "webpack --config  todowebpack.config.js",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,9 +26,11 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "core-js": "^3.1.4",
+    "css-loader": "^3.2.0",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "style-loader": "^1.0.0",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   },

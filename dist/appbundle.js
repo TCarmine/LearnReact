@@ -81,22 +81,10 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/todo_entry.js");
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _src_todoApp_components_Todo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/todoApp/components/Todo */ \"./src/todoApp/components/Todo.js\");\n\n\n //import  MainCat from \"./src/catcard/components/MainCat\";\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_todoApp_components_Todo__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById(\"todo_app\")); // ReactDOM.render(<MainCat />, document.getElementById(\"cat-app\"));\n\n//# sourceURL=webpack:///./index.js?");
-
-/***/ }),
 
 /***/ "./node_modules/object-assign/index.js":
 /*!*********************************************!*\
@@ -261,7 +249,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction Header() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"header\", {\n    className: \"navbar\"\n  }, \"This is the header\");\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./src/todoApp/components/Header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module '../todo.css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\nfunction Header() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"header\", {\n    className: \"navbar\"\n  }, \"This is the header\");\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./src/todoApp/components/Header.js?");
 
 /***/ }),
 
@@ -310,6 +298,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\nconst todosData = [{\n  id: 1,\n  text: \"Take out the trash\",\n  completed: true\n}, {\n  id: 2,\n  text: \"Grocery shopping\",\n  completed: false\n}, {\n  id: 3,\n  text: \"Clean gecko tank\",\n  completed: false\n}, {\n  id: 4,\n  text: \"Mow lawn\",\n  completed: true\n}, {\n  id: 5,\n  text: \"Catch up on Arrested Development\",\n  completed: false\n}];\n/* harmony default export */ __webpack_exports__[\"default\"] = (todosData);\n\n//# sourceURL=webpack:///./src/todoApp/todosData.js?");
+
+/***/ }),
+
+/***/ "./src/todo_entry.js":
+/*!***************************!*\
+  !*** ./src/todo_entry.js ***!
+  \***************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _todoApp_components_Todo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./todoApp/components/Todo */ \"./src/todoApp/components/Todo.js\");\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module './todo.css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n //import  MainCat from \"./src/catcard/components/MainCat\";\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_todoApp_components_Todo__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById(\"todo_app\")); // ReactDOM.render(<MainCat />, document.getElementById(\"cat-app\"));\n\n//# sourceURL=webpack:///./src/todo_entry.js?");
 
 /***/ })
 

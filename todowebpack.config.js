@@ -3,7 +3,7 @@ const path = require('path');
 
 const config  = {
 
-  entry: "./index.js",
+  entry: "./src/todo_entry.js",
   mode:'development',
   output: {
     filename: 'appbundle.js',
@@ -21,7 +21,12 @@ const config  = {
             loader: "babel-loader",
          },
          include: __dirname + '/src',
-       }
+       },
+       {
+        test: /\.css/,
+        loaders: ['todo', 'css'],
+        include: __dirname + '/src'
+      }
     ]
   }
 };
