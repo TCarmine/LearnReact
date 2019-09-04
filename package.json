@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "webpack --config  dev.config.js",
     "catapp": "webpack --config  catwebpack.config.js",
-    "todoapp": "webpack --config todowebpack.config.js --mode development",
+    "todoapp": "webpack-dev-server --open --config todowebpack.config.js --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,7 +33,8 @@
     "react-dom": "^16.8.6",
     "style-loader": "^1.0.0",
     "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
     "@babel/register": "^7.5.5"
