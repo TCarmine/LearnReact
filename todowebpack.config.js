@@ -10,7 +10,7 @@ const config  = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
   },
-  plugins: [new HtmlWebpackPlugin({filename:'cat.html'})],  
+  plugins: [new HtmlWebpackPlugin({filename:'todo.html'})],  
   module: {
     rules: 
     [
