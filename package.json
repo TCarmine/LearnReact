@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "webpack --config  dev.config.js",
     "catapp": "webpack --config  catwebpack.config.js",
-    "todoapp": "webpack --config  todowebpack.config.js",
+    "todoapp": "webpack --config todowebpack.config.js --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

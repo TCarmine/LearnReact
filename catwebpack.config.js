@@ -3,7 +3,7 @@ const path = require('path');
 
 const config  = {
 
-  entry: "./catentry.js",
+  entry: "./src/cat_entry.js",
   mode:'development',
   output: {
     filename: 'catbundle.js',

@@ -2,6 +2,18 @@ body {
     background-color: whitesmoke;
 }
 
+.navbar {
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .todo-list {
     background-color: white;
     margin: auto;

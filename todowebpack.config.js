@@ -7,12 +7,12 @@ const config  = {
   entry: "./src/todo_entry.js",
   mode:'development',
   output: {
-    filename: 'appbundle.js',
+    filename: 'pippo.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: ''
   },
   module: {
-    rules: 
+    rules:
     [
       {
          test: /\.(js|jsx)$/,
@@ -24,7 +24,7 @@ const config  = {
        },
        {
         test: /\.css/,
-        use:[ 
+        use:[
           "style-loader",
           MiniCssExtractPlugin.loader,
          "css-loader"
@@ -34,10 +34,10 @@ const config  = {
   },
   plugins : [
     new HtmlWebpackPlugin ({
-        template : 'app/src/todo.html'
+        template : "./src/todo.html"
     }),
     new MiniCssExtractPlugin({
-        filename: "app/src/todo.css"
+        filename: "./src/style.css"
     }),
 ]
 };
