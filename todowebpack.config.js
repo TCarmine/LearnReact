@@ -24,9 +24,8 @@ const config  = {
        },
        {
         test: /\.css/,
-        loaders: ['todo', 'css'],
-        include: __dirname + '/src'
-      }
+        loaders: [ ExtractTextPlugin.extract('css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'),
+       }
     ]
   },
   plugins : [
@@ -36,6 +35,7 @@ const config  = {
     new MiniCssExtractPlugin({
         filename: "app/src/todo.css"
     }),
+    new ExtractTextPlugin("todo.css")
 ]
 };
 
