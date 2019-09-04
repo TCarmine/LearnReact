@@ -1,4 +1,5 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 const config  = {
@@ -10,7 +11,6 @@ const config  = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
   },
-  plugins: [new HtmlWebpackPlugin({filename:'todo.html'})],  
   module: {
     rules: 
     [
@@ -28,7 +28,15 @@ const config  = {
         include: __dirname + '/src'
       }
     ]
-  }
+  },
+  plugins : [
+    new HtmlWebpackPlugin ({
+        template : 'app/src/todo.html'
+    }),
+    new MiniCssExtractPlugin({
+        filename: "app/src/todo.css"
+    }),
+]
 };
 
   module.exports = config;
